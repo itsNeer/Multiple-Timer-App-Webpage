@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+body{
+    background-color: black;
+    color: #fff;
+    /* font: 36px roboto, sans-serif; */
+    /* align-content: center; */
+    text-align: center;
+    font-family: roboto, sans-serif;
+}
+.app {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+
+header{
+    /* font-family: roboto, sans-serif; */
+    font-size: 30px;
+    margin-top: 47px;
+}
+
+.timerInput{
+    background-color: #34344A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 20px;
+    height:70px;
+}
+
+
+.timerInput label{
+    font-size: 30px;
+}
+
+
+.timerInput input {
+    width: 70px;;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    font-size: 28px;
+    text-align: center;
+    /* border: 1px solid #555; */
+    text-decoration: underline;
+    background-color: transparent;
+    color: #fff;
+}
+
+.timerInput p{
+    font-size: 28px;
+}
+
+.timerInput input::placeholder{
+    color: #fff;
+}
+
+#set{
+    border-radius: 26px;
+    background-color: yellow;
+    border: none;
+    width: 124px;
+    height: 52px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#set:hover{
+    background-color: #ffcc00;
+}
+
+.activetimer{
+    /* font-size: 40px; */
+    width: 500px;
+    margin: auto;
+    height: 66px;
+    background-color: rgb(69, 69, 69);
+    border-radius: 10px;
+    /* text-align: center; */
+    /* padding-top: auto; */
+    margin-top: 20px;
+    padding: 10px;
+}
+.activetimer h2{
+    font-size: 40px;
+}
+
